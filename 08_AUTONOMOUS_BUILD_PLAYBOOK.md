@@ -41,15 +41,21 @@ Before coding, read these files in order:
 8.  15_SECURITY_AND_COMPLIANCE.md
 9.  16_RELEASE_AND_PERFORMANCE.md
 10. 17_LAUNCH_AND_GROWTH.md
-11. 01_PRODUCT_OVERVIEW.md
-12. 02_DATABASE_SCHEMA.md
-13. 03_API_SPEC.md
-14. 04_FRONTEND_UIUX_SPEC.md
-15. 05_BUILD_DEPLOY_PLAN.md
-16. 06_INFRA_SECURITY_DEVOPS.md
-17. 07_ENGINEERING_DETAILS.md
-18. 09_TOP_GLOBAL_FEATURES.md
-19. 10_UIUX_MODERN_CLEAN.md
+11. 18_LANDING_AND_MARKETING_SITE.md
+12. 19_BRAND_COPY_AND_VOICE.md
+13. 20_EMAIL_TEMPLATES.md
+14. 21_ERROR_AND_STATE_CATALOG.md
+15. 22_GLOSSARY_AND_DATA_DICTIONARY.md
+16. 23_FINAL_BUILD_CHECKLIST.md
+17. 01_PRODUCT_OVERVIEW.md
+18. 02_DATABASE_SCHEMA.md
+19. 03_API_SPEC.md
+20. 04_FRONTEND_UIUX_SPEC.md
+21. 05_BUILD_DEPLOY_PLAN.md
+22. 06_INFRA_SECURITY_DEVOPS.md
+23. 07_ENGINEERING_DETAILS.md
+24. 09_TOP_GLOBAL_FEATURES.md
+25. 10_UIUX_MODERN_CLEAN.md
 ```
 
 If any file conflicts with another:
@@ -63,11 +69,17 @@ If any file conflicts with another:
 7. `15_SECURITY_AND_COMPLIANCE.md` wins for security, privacy, and regulatory decisions.
 8. `16_RELEASE_AND_PERFORMANCE.md` wins for release management and performance budgets.
 9. `17_LAUNCH_AND_GROWTH.md` wins for go-to-market, pricing, support, and brand decisions.
-10. `02_DATABASE_SCHEMA.md` wins for schema.
-11. `03_API_SPEC.md` wins for backend contract.
-12. `04_FRONTEND_UIUX_SPEC.md` wins for UI/page structure.
-13. `06_INFRA_SECURITY_DEVOPS.md` wins for production/security/deploy.
-14. `09_TOP_GLOBAL_FEATURES.md` wins for design system, i18n, search, UX quality.
+10. `18_LANDING_AND_MARKETING_SITE.md` wins for marketing surface, IA, and section structure.
+11. `19_BRAND_COPY_AND_VOICE.md` wins for brand identity, voice, and microcopy library.
+12. `20_EMAIL_TEMPLATES.md` wins for every transactional, lifecycle, marketing, or system email behavior.
+13. `21_ERROR_AND_STATE_CATALOG.md` wins for API error codes, validation messages, and UI states.
+14. `22_GLOSSARY_AND_DATA_DICTIONARY.md` wins for terminology, status enums, ID/slug formats, event names.
+15. `23_FINAL_BUILD_CHECKLIST.md` is the master TODO; ticking it is required to call work done.
+16. `02_DATABASE_SCHEMA.md` wins for schema.
+17. `03_API_SPEC.md` wins for backend contract.
+18. `04_FRONTEND_UIUX_SPEC.md` wins for UI/page structure.
+19. `06_INFRA_SECURITY_DEVOPS.md` wins for production/security/deploy.
+20. `09_TOP_GLOBAL_FEATURES.md` wins for design system, i18n, search, UX quality.
 
 ---
 

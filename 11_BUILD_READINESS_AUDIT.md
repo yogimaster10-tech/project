@@ -37,11 +37,17 @@ When documents overlap, use this priority order:
 7. `15_SECURITY_AND_COMPLIANCE.md` — security, privacy, regulatory decisions.
 8. `16_RELEASE_AND_PERFORMANCE.md` — release management, performance budgets.
 9. `17_LAUNCH_AND_GROWTH.md` — go-to-market, pricing, support, brand.
-10. `02_DATABASE_SCHEMA.md` — schema names, relationships, indexes.
-11. `03_API_SPEC.md` — external API contract.
-12. `04_FRONTEND_UIUX_SPEC.md` and `10_UIUX_MODERN_CLEAN.md` — page structure and visual behavior.
-13. `06_INFRA_SECURITY_DEVOPS.md` — production security, scaling, deployment, recovery.
-14. `09_TOP_GLOBAL_FEATURES.md` — post-MVP global polish.
+10. `18_LANDING_AND_MARKETING_SITE.md` — marketing surface, IA, sections.
+11. `19_BRAND_COPY_AND_VOICE.md` — brand identity, voice, microcopy.
+12. `20_EMAIL_TEMPLATES.md` — email behavior and content.
+13. `21_ERROR_AND_STATE_CATALOG.md` — error codes, validation messages, UI states.
+14. `22_GLOSSARY_AND_DATA_DICTIONARY.md` — terminology, enums, IDs, events.
+15. `23_FINAL_BUILD_CHECKLIST.md` — master TODO across the whole startup.
+16. `02_DATABASE_SCHEMA.md` — schema names, relationships, indexes.
+17. `03_API_SPEC.md` — external API contract.
+18. `04_FRONTEND_UIUX_SPEC.md` and `10_UIUX_MODERN_CLEAN.md` — page structure and visual behavior.
+19. `06_INFRA_SECURITY_DEVOPS.md` — production security, scaling, deployment, recovery.
+20. `09_TOP_GLOBAL_FEATURES.md` — post-MVP global polish.
 
 If two docs conflict, do not silently pick one. Record the decision in `BUILD_STATUS.md`.
 
