@@ -35,15 +35,21 @@ Before coding, read these files in order:
 2.  00_README_BUILD_ORDER.md
 3.  08_AUTONOMOUS_BUILD_PLAYBOOK.md
 4.  11_BUILD_READINESS_AUDIT.md
-5.  01_PRODUCT_OVERVIEW.md
-6.  02_DATABASE_SCHEMA.md
-7.  03_API_SPEC.md
-8.  04_FRONTEND_UIUX_SPEC.md
-9.  05_BUILD_DEPLOY_PLAN.md
-10. 06_INFRA_SECURITY_DEVOPS.md
-11. 07_ENGINEERING_DETAILS.md
-12. 09_TOP_GLOBAL_FEATURES.md
-13. 10_UIUX_MODERN_CLEAN.md
+5.  12_ENGINEERING_EXCELLENCE.md
+6.  13_TESTING_STRATEGY.md
+7.  14_OBSERVABILITY_AND_INCIDENTS.md
+8.  15_SECURITY_AND_COMPLIANCE.md
+9.  16_RELEASE_AND_PERFORMANCE.md
+10. 17_LAUNCH_AND_GROWTH.md
+11. 01_PRODUCT_OVERVIEW.md
+12. 02_DATABASE_SCHEMA.md
+13. 03_API_SPEC.md
+14. 04_FRONTEND_UIUX_SPEC.md
+15. 05_BUILD_DEPLOY_PLAN.md
+16. 06_INFRA_SECURITY_DEVOPS.md
+17. 07_ENGINEERING_DETAILS.md
+18. 09_TOP_GLOBAL_FEATURES.md
+19. 10_UIUX_MODERN_CLEAN.md
 ```
 
 If any file conflicts with another:
@@ -51,11 +57,17 @@ If any file conflicts with another:
 1. `00_README_BUILD_ORDER.md` wins for coding behavior.
 2. `08_AUTONOMOUS_BUILD_PLAYBOOK.md` wins for execution order.
 3. `11_BUILD_READINESS_AUDIT.md` wins for maturity clarifications and resolved gaps.
-4. `02_DATABASE_SCHEMA.md` wins for schema.
-5. `03_API_SPEC.md` wins for backend contract.
-6. `04_FRONTEND_UIUX_SPEC.md` wins for UI/page structure.
-7. `06_INFRA_SECURITY_DEVOPS.md` wins for production/security/deploy.
-8. `09_TOP_GLOBAL_FEATURES.md` wins for design system, i18n, search, UX quality.
+4. `12_ENGINEERING_EXCELLENCE.md` wins for engineering process, code review, and ADR rules.
+5. `13_TESTING_STRATEGY.md` wins for testing methodology and quality gates.
+6. `14_OBSERVABILITY_AND_INCIDENTS.md` wins for telemetry, on-call, and incident response policy.
+7. `15_SECURITY_AND_COMPLIANCE.md` wins for security, privacy, and regulatory decisions.
+8. `16_RELEASE_AND_PERFORMANCE.md` wins for release management and performance budgets.
+9. `17_LAUNCH_AND_GROWTH.md` wins for go-to-market, pricing, support, and brand decisions.
+10. `02_DATABASE_SCHEMA.md` wins for schema.
+11. `03_API_SPEC.md` wins for backend contract.
+12. `04_FRONTEND_UIUX_SPEC.md` wins for UI/page structure.
+13. `06_INFRA_SECURITY_DEVOPS.md` wins for production/security/deploy.
+14. `09_TOP_GLOBAL_FEATURES.md` wins for design system, i18n, search, UX quality.
 
 ---
 

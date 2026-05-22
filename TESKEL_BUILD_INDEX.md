@@ -24,6 +24,12 @@ AI agent / developer wajib membaca file berikut secara berurutan:
 | 10 | `07_ENGINEERING_DETAILS.md` | Backend service logic, frontend component behavior, edge cases, auth permissions |
 | 11 | `09_TOP_GLOBAL_FEATURES.md` | Design system, i18n, multi-currency, PPP, real-time, analytics, SEO, search, checkout UX, SDK, growth, PWA, accessibility, competitive positioning |
 | 12 | `10_UIUX_MODERN_CLEAN.md` | Page-by-page visual spec, component specs (buttons/cards/tables/forms/modals/nav/toast), layout system, color rules, icon system, charts, responsive behavior, dark mode, empty/loading/error states, interaction patterns, reference UIs |
+| 13 | `12_ENGINEERING_EXCELLENCE.md` | Senior engineering practices: DoD, branching, code review, ADR, tech debt, AI-pair workflow |
+| 14 | `13_TESTING_STRATEGY.md` | Test pyramid, integration/E2E/contract/load/chaos, flaky policy, coverage targets, test environments |
+| 15 | `14_OBSERVABILITY_AND_INCIDENTS.md` | Golden signals, SLI/SLO, alerting, on-call, incident severity, postmortem, runbook |
+| 16 | `15_SECURITY_AND_COMPLIANCE.md` | STRIDE, OWASP, auth/API security, secrets, supply chain, GDPR/CCPA, SOC 2 readiness |
+| 17 | `16_RELEASE_AND_PERFORMANCE.md` | Release pipeline, feature flags, canary, rollback, performance budgets, capacity, cost engineering |
+| 18 | `17_LAUNCH_AND_GROWTH.md` | Launch stages, north star, activation funnel, pricing, content, support, partnerships |
 
 ---
 
@@ -33,7 +39,7 @@ Use this prompt:
 
 ```text
 Read TESKEL_BUILD_INDEX.md first.
-Then read 00_README_BUILD_ORDER.md, 08_AUTONOMOUS_BUILD_PLAYBOOK.md, and 11_BUILD_READINESS_AUDIT.md.
+Then read 00_README_BUILD_ORDER.md, 08_AUTONOMOUS_BUILD_PLAYBOOK.md, 11_BUILD_READINESS_AUDIT.md, and the senior guideline pack 12_ENGINEERING_EXCELLENCE.md, 13_TESTING_STRATEGY.md, 14_OBSERVABILITY_AND_INCIDENTS.md, 15_SECURITY_AND_COMPLIANCE.md, 16_RELEASE_AND_PERFORMANCE.md, 17_LAUNCH_AND_GROWTH.md.
 Build TESKEL phase by phase.
 For each task:
 1. Implement the smallest working slice.
@@ -62,6 +68,15 @@ For each task:
 
 - `11_BUILD_READINESS_AUDIT.md`
 - `BUILD_STATUS.md`
+
+### Senior Engineering Guideline Pack
+
+- `12_ENGINEERING_EXCELLENCE.md`
+- `13_TESTING_STRATEGY.md`
+- `14_OBSERVABILITY_AND_INCIDENTS.md`
+- `15_SECURITY_AND_COMPLIANCE.md`
+- `16_RELEASE_AND_PERFORMANCE.md`
+- `17_LAUNCH_AND_GROWTH.md`
 
 ### Core Engineering Specs
 
