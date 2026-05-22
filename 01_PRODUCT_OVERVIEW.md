@@ -1,14 +1,16 @@
-# TESKEL — Build Specification Index
+# TESKEL — Product Overview
 
-> Baca berurutan: 00 → 01 → 02 → 03 → 04
+> Baca `TESKEL_BUILD_INDEX.md` dulu. File ini menjelaskan positioning, stack, dan struktur target.
 
 | File | Isi | Untuk Siapa |
 |------|-----|-------------|
-| `00_OVERVIEW.md` | Ini. Index + positioning + tech stack | Semua |
-| `01_DATABASE.md` | Schema lengkap semua tabel (Drizzle ORM) | Backend |
-| `02_API.md` | Semua endpoint + request/response + auth | Backend |
-| `03_FRONTEND.md` | Semua page + component + flow + UI spec | Frontend + UI/UX |
-| `04_BUILD.md` | Build phases, env, deploy, cost | DevOps + PM |
+| `TESKEL_BUILD_INDEX.md` | Index utama dan urutan baca | Semua |
+| `00_README_BUILD_ORDER.md` | Aturan coding, build order, verification discipline | Semua builder |
+| `11_BUILD_READINESS_AUDIT.md` | Klarifikasi agar plan siap dieksekusi tanpa tebakan | Captain / Build agent |
+| `02_DATABASE_SCHEMA.md` | Schema lengkap semua tabel (Drizzle ORM) | Backend |
+| `03_API_SPEC.md` | Semua endpoint + request/response + auth | Backend |
+| `04_FRONTEND_UIUX_SPEC.md` | Semua page + component + flow + UI spec | Frontend + UI/UX |
+| `05_BUILD_DEPLOY_PLAN.md` | Build phases, env, deploy, cost | DevOps + PM |
 
 ## Positioning
 
@@ -60,5 +62,5 @@ teskel/
 
 ## Page Count: ~55 pages
 ## API Endpoints: 80+
-## Database Tables: 30
+## Database Tables: 34
 ## Build Timeline: 12 weeks (4 phases)

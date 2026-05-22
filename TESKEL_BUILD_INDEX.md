@@ -22,6 +22,7 @@ AI agent / developer wajib membaca file berikut secara berurutan:
 | 08 | `08_AUTONOMOUS_BUILD_PLAYBOOK.md` | Autonomous build execution, phases, stop conditions, final acceptance test |
 | 09 | `09_TOP_GLOBAL_FEATURES.md` | Design system, i18n, multi-currency, PPP, real-time, analytics, SEO, search, checkout UX, SDK, growth, PWA, accessibility, competitive positioning |
 | 10 | `10_UIUX_MODERN_CLEAN.md` | Page-by-page visual spec, component specs (buttons/cards/tables/forms/modals/nav/toast), layout system, color rules, icon system, charts, responsive behavior, dark mode, empty/loading/error states, interaction patterns, reference UIs |
+| 11 | `11_BUILD_READINESS_AUDIT.md` | Matured implementation decisions, MVP cut line, resolved gaps, Phase 0/1 acceptance criteria |
 
 ---
 
@@ -31,7 +32,7 @@ Use this prompt:
 
 ```text
 Read TESKEL_BUILD_INDEX.md first.
-Then read 00_README_BUILD_ORDER.md and 08_AUTONOMOUS_BUILD_PLAYBOOK.md.
+Then read 00_README_BUILD_ORDER.md, 08_AUTONOMOUS_BUILD_PLAYBOOK.md, and 11_BUILD_READINESS_AUDIT.md.
 Build TESKEL phase by phase.
 For each task:
 1. Implement the smallest working slice.
@@ -55,6 +56,11 @@ For each task:
 
 - `00_README_BUILD_ORDER.md`
 - `08_AUTONOMOUS_BUILD_PLAYBOOK.md`
+
+### Readiness / Build Control
+
+- `11_BUILD_READINESS_AUDIT.md`
+- `BUILD_STATUS.md`
 
 ### Core Engineering Specs
 

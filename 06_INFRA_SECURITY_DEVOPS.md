@@ -347,7 +347,7 @@ Materialized Views (refreshed periodically):
     Refresh: every 15 min
 
 Query Optimization:
-  - All queries use indexes (defined in 01_DATABASE.md)
+  - All queries use indexes (defined in 02_DATABASE_SCHEMA.md)
   - EXPLAIN ANALYZE on slow queries (>100ms)
   - Connection pooling: PgBouncer (transaction mode) via Neon
   - Read replicas for analytics queries

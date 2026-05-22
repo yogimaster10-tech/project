@@ -1221,7 +1221,7 @@ export class WebhookService {
 ### 4.1 Index Strategy
 
 ```
-Already defined in 01_DATABASE.md, but here's the reasoning:
+Already defined in 02_DATABASE_SCHEMA.md, but here's the reasoning:
 
 High-Frequency Queries:
   - License validation: license_keys.key (unique index) → <1ms
