@@ -1,5 +1,5 @@
 # TESKEL — Build Guideline (Karpathy-Inspired)
-## The CLAUDE.md for Building TESKEL
+## The CLAUDE.md-Equivalent for Building TESKEL
 
 > *"LLMs are exceptionally good at looping until they meet specific goals. Don't tell it what to do, give it success criteria and watch it go."* — Andrej Karpathy
 
@@ -718,4 +718,4 @@ pnpm dev
 
 ---
 
-*This guideline is the CLAUDE.md for TESKEL. Every AI agent building TESKEL must follow these rules. Read this before touching any code.*
+*This guideline is the CLAUDE.md-equivalent for TESKEL. No separate CLAUDE.md is required unless the implementation environment specifically needs one. Every AI agent building TESKEL must follow these rules before touching code.*

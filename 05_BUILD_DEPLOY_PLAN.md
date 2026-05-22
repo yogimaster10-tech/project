@@ -20,7 +20,7 @@ Day 1-2:
 
 Day 3-4:
   □ Setup Neon database (free tier)
-  □ Write all Drizzle schemas (01_DATABASE.md)
+  □ Write all Drizzle schemas (02_DATABASE_SCHEMA.md)
   □ Run drizzle-kit generate + migrate
   □ Setup Better Auth (email+password, Google, GitHub)
   □ Auth pages: /login, /signup, /forgot-password, /reset-password, /verify-email

@@ -31,27 +31,31 @@ The project is complete only when:
 Before coding, read these files in order:
 
 ```
-1.  00_README_BUILD_ORDER.md
-2.  01_PRODUCT_OVERVIEW.md
-3.  02_DATABASE_SCHEMA.md
-4.  03_API_SPEC.md
-5.  04_FRONTEND_UIUX_SPEC.md
-6.  05_BUILD_DEPLOY_PLAN.md
-7.  06_INFRA_SECURITY_DEVOPS.md
-8.  07_ENGINEERING_DETAILS.md
-9.  08_AUTONOMOUS_BUILD_PLAYBOOK.md
-10. 09_TOP_GLOBAL_FEATURES.md
+1.  TESKEL_BUILD_INDEX.md
+2.  00_README_BUILD_ORDER.md
+3.  08_AUTONOMOUS_BUILD_PLAYBOOK.md
+4.  11_BUILD_READINESS_AUDIT.md
+5.  01_PRODUCT_OVERVIEW.md
+6.  02_DATABASE_SCHEMA.md
+7.  03_API_SPEC.md
+8.  04_FRONTEND_UIUX_SPEC.md
+9.  05_BUILD_DEPLOY_PLAN.md
+10. 06_INFRA_SECURITY_DEVOPS.md
+11. 07_ENGINEERING_DETAILS.md
+12. 09_TOP_GLOBAL_FEATURES.md
+13. 10_UIUX_MODERN_CLEAN.md
 ```
 
 If any file conflicts with another:
 
 1. `00_README_BUILD_ORDER.md` wins for coding behavior.
 2. `08_AUTONOMOUS_BUILD_PLAYBOOK.md` wins for execution order.
-3. `02_DATABASE_SCHEMA.md` wins for schema.
-4. `03_API_SPEC.md` wins for backend contract.
-5. `04_FRONTEND_UIUX_SPEC.md` wins for UI/page structure.
-6. `06_INFRA_SECURITY_DEVOPS.md` wins for production/security/deploy.
-7. `09_TOP_GLOBAL_FEATURES.md` wins for design system, i18n, search, UX quality.
+3. `11_BUILD_READINESS_AUDIT.md` wins for maturity clarifications and resolved gaps.
+4. `02_DATABASE_SCHEMA.md` wins for schema.
+5. `03_API_SPEC.md` wins for backend contract.
+6. `04_FRONTEND_UIUX_SPEC.md` wins for UI/page structure.
+7. `06_INFRA_SECURITY_DEVOPS.md` wins for production/security/deploy.
+8. `09_TOP_GLOBAL_FEATURES.md` wins for design system, i18n, search, UX quality.
 
 ---
 
@@ -333,7 +337,7 @@ Tests:
 Acceptance:
 
 - Migration applies cleanly.
-- Schema matches `01_DATABASE.md` subset.
+- Schema matches the Phase 1 subset of `02_DATABASE_SCHEMA.md`.
 
 ### 5.2 Auth MVP
 
@@ -1216,8 +1220,8 @@ All must pass.
 The agent should stop only if:
 
 1. A secret/API key is required and cannot be mocked.
-2. A destructive operation is required.
-3. A paid account or manual dashboard configuration is required.
+2. A destructive operation is required, including database wipe, data deletion, force push, or irreversible migration.
+3. A paid account or manual dashboard configuration is required and no local/mock adapter can preserve progress.
 4. A product decision changes architecture materially.
 5. The user asked to pause.
 
@@ -1227,7 +1231,7 @@ Otherwise, continue.
 
 ## 16. ONE-SENTENCE INSTRUCTION FOR FUTURE AI AGENT
 
-> Read `00_BUILD_GUIDELINE.md` and `07_AUTONOMOUS_BUILD_PLAYBOOK.md`, then build TESKEL phase by phase. For each task, implement the smallest working slice, verify with tests/commands, update `BUILD_STATUS.md`, commit, and continue until the final acceptance test passes or a stop condition is reached.
+> Read `TESKEL_BUILD_INDEX.md`, `00_README_BUILD_ORDER.md`, `08_AUTONOMOUS_BUILD_PLAYBOOK.md`, and `11_BUILD_READINESS_AUDIT.md`, then build TESKEL phase by phase. For each task, implement the smallest working slice, verify with tests/commands, update `BUILD_STATUS.md`, persist progress according to the environment, and continue until the final acceptance test passes or a stop condition is reached.
 
 ---
 
