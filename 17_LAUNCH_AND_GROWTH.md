@@ -9,7 +9,7 @@
 
 | Stage | Audience | Tujuan | Gate Keluar |
 |-------|----------|--------|------------|
-| Internal Alpha | Tim TESKEL + invited friend | Smoke produk; validasi flow utama | Tidak ada SEV2 dalam 14 hari, semua DoD §13 (`12_ENGINEERING_EXCELLENCE.md`) hijau |
+| Internal Alpha | Tim TESKEL + invited friend | Smoke produk; validasi flow utama | Tidak ada SEV2 dalam 14 hari, Definition of Done §1 (`12_ENGINEERING_EXCELLENCE.md`) hijau, dan Quality Gate Phase 1 §13 terpenuhi |
 | Closed Beta | 20–50 creator under waitlist | Validasi product-market fit, friction discovery | NPS ≥ 30, completion rate signup-to-first-sale ≥ 25%, churn 30-hari ≤ 15% |
 | Open Beta | Publik, traffic terbatas | Stress test, conversion calibration | Uptime ≥ 99.9% selama 14 hari, support SLA terpenuhi |
 | GA Launch | Publik penuh | Awareness + growth | Kriteria pasca-launch (lihat §3) |

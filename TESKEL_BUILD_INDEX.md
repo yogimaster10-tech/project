@@ -15,21 +15,21 @@ AI agent / developer wajib membaca file berikut secara berurutan:
 | 01 | `00_README_BUILD_ORDER.md` | Karpathy-inspired coding guideline, build behavior, anti-patterns, verification rules |
 | 02 | `08_AUTONOMOUS_BUILD_PLAYBOOK.md` | Autonomous build execution, phases, stop conditions, final acceptance test |
 | 03 | `11_BUILD_READINESS_AUDIT.md` | Matured implementation decisions, MVP cut line, resolved gaps, Phase 0/1 acceptance criteria |
-| 04 | `01_PRODUCT_OVERVIEW.md` | Product positioning, stack summary, monorepo overview |
-| 05 | `02_DATABASE_SCHEMA.md` | Database schema, tables, enums, relations, indexes |
-| 06 | `03_API_SPEC.md` | Backend API endpoints, auth, request/response, business flows |
-| 07 | `04_FRONTEND_UIUX_SPEC.md` | Landing, dashboard, storefront, checkout, buyer portal, UI/UX components |
-| 08 | `05_BUILD_DEPLOY_PLAN.md` | 12-week build plan, env vars, deploy, CI/CD, costs, testing |
-| 09 | `06_INFRA_SECURITY_DEVOPS.md` | Cloud architecture, security, RLS, caching, scaling, observability, recovery |
-| 10 | `07_ENGINEERING_DETAILS.md` | Backend service logic, frontend component behavior, edge cases, auth permissions |
-| 11 | `09_TOP_GLOBAL_FEATURES.md` | Design system, i18n, multi-currency, PPP, real-time, analytics, SEO, search, checkout UX, SDK, growth, PWA, accessibility, competitive positioning |
-| 12 | `10_UIUX_MODERN_CLEAN.md` | Page-by-page visual spec, component specs (buttons/cards/tables/forms/modals/nav/toast), layout system, color rules, icon system, charts, responsive behavior, dark mode, empty/loading/error states, interaction patterns, reference UIs |
-| 13 | `12_ENGINEERING_EXCELLENCE.md` | Senior engineering practices: DoD, branching, code review, ADR, tech debt, AI-pair workflow |
-| 14 | `13_TESTING_STRATEGY.md` | Test pyramid, integration/E2E/contract/load/chaos, flaky policy, coverage targets, test environments |
-| 15 | `14_OBSERVABILITY_AND_INCIDENTS.md` | Golden signals, SLI/SLO, alerting, on-call, incident severity, postmortem, runbook |
-| 16 | `15_SECURITY_AND_COMPLIANCE.md` | STRIDE, OWASP, auth/API security, secrets, supply chain, GDPR/CCPA, SOC 2 readiness |
-| 17 | `16_RELEASE_AND_PERFORMANCE.md` | Release pipeline, feature flags, canary, rollback, performance budgets, capacity, cost engineering |
-| 18 | `17_LAUNCH_AND_GROWTH.md` | Launch stages, north star, activation funnel, pricing, content, support, partnerships |
+| 04 | `12_ENGINEERING_EXCELLENCE.md` | Senior engineering practices: DoD, branching, code review, ADR, tech debt, AI-pair workflow |
+| 05 | `13_TESTING_STRATEGY.md` | Test pyramid, integration/E2E/contract/load/chaos, flaky policy, coverage targets, test environments |
+| 06 | `14_OBSERVABILITY_AND_INCIDENTS.md` | Golden signals, SLI/SLO, alerting, on-call, incident severity, postmortem, runbook |
+| 07 | `15_SECURITY_AND_COMPLIANCE.md` | STRIDE, OWASP, auth/API security, secrets, supply chain, GDPR/CCPA, SOC 2 readiness |
+| 08 | `16_RELEASE_AND_PERFORMANCE.md` | Release pipeline, feature flags, canary, rollback, performance budgets, capacity, cost engineering |
+| 09 | `17_LAUNCH_AND_GROWTH.md` | Launch stages, north star, activation funnel, pricing, content, support, partnerships |
+| 10 | `01_PRODUCT_OVERVIEW.md` | Product positioning, stack summary, monorepo overview |
+| 11 | `02_DATABASE_SCHEMA.md` | Database schema, tables, enums, relations, indexes |
+| 12 | `03_API_SPEC.md` | Backend API endpoints, auth, request/response, business flows |
+| 13 | `04_FRONTEND_UIUX_SPEC.md` | Landing, dashboard, storefront, checkout, buyer portal, UI/UX components |
+| 14 | `05_BUILD_DEPLOY_PLAN.md` | 12-week build plan, env vars, deploy, CI/CD, costs, testing |
+| 15 | `06_INFRA_SECURITY_DEVOPS.md` | Cloud architecture, security, RLS, caching, scaling, observability, recovery |
+| 16 | `07_ENGINEERING_DETAILS.md` | Backend service logic, frontend component behavior, edge cases, auth permissions |
+| 17 | `09_TOP_GLOBAL_FEATURES.md` | Design system, i18n, multi-currency, PPP, real-time, analytics, SEO, search, checkout UX, SDK, growth, PWA, accessibility, competitive positioning |
+| 18 | `10_UIUX_MODERN_CLEAN.md` | Page-by-page visual spec, component specs (buttons/cards/tables/forms/modals/nav/toast), layout system, color rules, icon system, charts, responsive behavior, dark mode, empty/loading/error states, interaction patterns, reference UIs |
 
 ---
 
