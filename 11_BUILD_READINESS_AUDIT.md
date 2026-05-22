@@ -31,11 +31,17 @@ When documents overlap, use this priority order:
 1. `00_README_BUILD_ORDER.md` — coding behavior, verification discipline, simplicity rules.
 2. `08_AUTONOMOUS_BUILD_PLAYBOOK.md` — execution order.
 3. `11_BUILD_READINESS_AUDIT.md` — maturity clarifications and gap closures.
-4. `02_DATABASE_SCHEMA.md` — schema names, relationships, indexes.
-5. `03_API_SPEC.md` — external API contract.
-6. `04_FRONTEND_UIUX_SPEC.md` and `10_UIUX_MODERN_CLEAN.md` — page structure and visual behavior.
-7. `06_INFRA_SECURITY_DEVOPS.md` — production security, scaling, deployment, recovery.
-8. `09_TOP_GLOBAL_FEATURES.md` — post-MVP global polish.
+4. `12_ENGINEERING_EXCELLENCE.md` — engineering process, PR, review, ADR, tech debt.
+5. `13_TESTING_STRATEGY.md` — testing methodology, quality gates.
+6. `14_OBSERVABILITY_AND_INCIDENTS.md` — observability, alerting, on-call, incident.
+7. `15_SECURITY_AND_COMPLIANCE.md` — security, privacy, regulatory decisions.
+8. `16_RELEASE_AND_PERFORMANCE.md` — release management, performance budgets.
+9. `17_LAUNCH_AND_GROWTH.md` — go-to-market, pricing, support, brand.
+10. `02_DATABASE_SCHEMA.md` — schema names, relationships, indexes.
+11. `03_API_SPEC.md` — external API contract.
+12. `04_FRONTEND_UIUX_SPEC.md` and `10_UIUX_MODERN_CLEAN.md` — page structure and visual behavior.
+13. `06_INFRA_SECURITY_DEVOPS.md` — production security, scaling, deployment, recovery.
+14. `09_TOP_GLOBAL_FEATURES.md` — post-MVP global polish.
 
 If two docs conflict, do not silently pick one. Record the decision in `BUILD_STATUS.md`.
 
@@ -311,4 +317,3 @@ creator dashboard shows order and revenue
 ```
 
 This is the first real startup checkpoint. Advanced features can wait; revenue flow cannot.
-

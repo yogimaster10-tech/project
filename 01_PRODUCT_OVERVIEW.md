@@ -7,6 +7,12 @@
 | `TESKEL_BUILD_INDEX.md` | Index utama dan urutan baca | Semua |
 | `00_README_BUILD_ORDER.md` | Aturan coding, build order, verification discipline | Semua builder |
 | `11_BUILD_READINESS_AUDIT.md` | Klarifikasi agar plan siap dieksekusi tanpa tebakan | Captain / Build agent |
+| `12_ENGINEERING_EXCELLENCE.md` | Senior engineering practices (PR, review, ADR, debt) | Semua engineer |
+| `13_TESTING_STRATEGY.md` | Pyramid test, contract, load, chaos, environment | QA + engineer |
+| `14_OBSERVABILITY_AND_INCIDENTS.md` | SLI/SLO, alerting, on-call, postmortem, runbook | Ops + engineer |
+| `15_SECURITY_AND_COMPLIANCE.md` | STRIDE, OWASP, GDPR, SOC 2 readiness | Security + engineer |
+| `16_RELEASE_AND_PERFORMANCE.md` | Release pipeline, feature flag, perf budget | Engineering + DevOps |
+| `17_LAUNCH_AND_GROWTH.md` | Launch stage, north star, pricing, GTM | Product + GTM |
 | `02_DATABASE_SCHEMA.md` | Schema lengkap semua tabel (Drizzle ORM) | Backend |
 | `03_API_SPEC.md` | Semua endpoint + request/response + auth | Backend |
 | `04_FRONTEND_UIUX_SPEC.md` | Semua page + component + flow + UI spec | Frontend + UI/UX |
