@@ -21,15 +21,21 @@ AI agent / developer wajib membaca file berikut secara berurutan:
 | 07 | `15_SECURITY_AND_COMPLIANCE.md` | STRIDE, OWASP, auth/API security, secrets, supply chain, GDPR/CCPA, SOC 2 readiness |
 | 08 | `16_RELEASE_AND_PERFORMANCE.md` | Release pipeline, feature flags, canary, rollback, performance budgets, capacity, cost engineering |
 | 09 | `17_LAUNCH_AND_GROWTH.md` | Launch stages, north star, activation funnel, pricing, content, support, partnerships |
-| 10 | `01_PRODUCT_OVERVIEW.md` | Product positioning, stack summary, monorepo overview |
-| 11 | `02_DATABASE_SCHEMA.md` | Database schema, tables, enums, relations, indexes |
-| 12 | `03_API_SPEC.md` | Backend API endpoints, auth, request/response, business flows |
-| 13 | `04_FRONTEND_UIUX_SPEC.md` | Landing, dashboard, storefront, checkout, buyer portal, UI/UX components |
-| 14 | `05_BUILD_DEPLOY_PLAN.md` | 12-week build plan, env vars, deploy, CI/CD, costs, testing |
-| 15 | `06_INFRA_SECURITY_DEVOPS.md` | Cloud architecture, security, RLS, caching, scaling, observability, recovery |
-| 16 | `07_ENGINEERING_DETAILS.md` | Backend service logic, frontend component behavior, edge cases, auth permissions |
-| 17 | `09_TOP_GLOBAL_FEATURES.md` | Design system, i18n, multi-currency, PPP, real-time, analytics, SEO, search, checkout UX, SDK, growth, PWA, accessibility, competitive positioning |
-| 18 | `10_UIUX_MODERN_CLEAN.md` | Page-by-page visual spec, component specs (buttons/cards/tables/forms/modals/nav/toast), layout system, color rules, icon system, charts, responsive behavior, dark mode, empty/loading/error states, interaction patterns, reference UIs |
+| 10 | `18_LANDING_AND_MARKETING_SITE.md` | Complete marketing site spec: landing, pricing, features, docs, blog, legal, 404/500, sitemap |
+| 11 | `19_BRAND_COPY_AND_VOICE.md` | Brand essence, voice/tone, microcopy library, accessibility copy, anti-patterns |
+| 12 | `20_EMAIL_TEMPLATES.md` | 47 email templates: triggers, payload, subject/preheader, deliverability, preference center |
+| 13 | `21_ERROR_AND_STATE_CATALOG.md` | API error codes, form validation, empty/loading/error UI states, confirmations |
+| 14 | `22_GLOSSARY_AND_DATA_DICTIONARY.md` | Terminology, status enums, ID/slug formats, event naming, plan entitlements |
+| 15 | `23_FINAL_BUILD_CHECKLIST.md` | Master checklist: repo, db, api, frontend, email, infra, security, launch, ops |
+| 16 | `01_PRODUCT_OVERVIEW.md` | Product positioning, stack summary, monorepo overview |
+| 17 | `02_DATABASE_SCHEMA.md` | Database schema, tables, enums, relations, indexes |
+| 18 | `03_API_SPEC.md` | Backend API endpoints, auth, request/response, business flows |
+| 19 | `04_FRONTEND_UIUX_SPEC.md` | Landing, dashboard, storefront, checkout, buyer portal, UI/UX components |
+| 20 | `05_BUILD_DEPLOY_PLAN.md` | 12-week build plan, env vars, deploy, CI/CD, costs, testing |
+| 21 | `06_INFRA_SECURITY_DEVOPS.md` | Cloud architecture, security, RLS, caching, scaling, observability, recovery |
+| 22 | `07_ENGINEERING_DETAILS.md` | Backend service logic, frontend component behavior, edge cases, auth permissions |
+| 23 | `09_TOP_GLOBAL_FEATURES.md` | Design system, i18n, multi-currency, PPP, real-time, analytics, SEO, search, checkout UX, SDK, growth, PWA, accessibility, competitive positioning |
+| 24 | `10_UIUX_MODERN_CLEAN.md` | Page-by-page visual spec, component specs (buttons/cards/tables/forms/modals/nav/toast), layout system, color rules, icon system, charts, responsive behavior, dark mode, empty/loading/error states, interaction patterns, reference UIs |
 
 ---
 
@@ -39,7 +45,7 @@ Use this prompt:
 
 ```text
 Read TESKEL_BUILD_INDEX.md first.
-Then read 00_README_BUILD_ORDER.md, 08_AUTONOMOUS_BUILD_PLAYBOOK.md, 11_BUILD_READINESS_AUDIT.md, and the senior guideline pack 12_ENGINEERING_EXCELLENCE.md, 13_TESTING_STRATEGY.md, 14_OBSERVABILITY_AND_INCIDENTS.md, 15_SECURITY_AND_COMPLIANCE.md, 16_RELEASE_AND_PERFORMANCE.md, 17_LAUNCH_AND_GROWTH.md.
+Then read 00_README_BUILD_ORDER.md, 08_AUTONOMOUS_BUILD_PLAYBOOK.md, 11_BUILD_READINESS_AUDIT.md, the senior guideline pack 12_ENGINEERING_EXCELLENCE.md, 13_TESTING_STRATEGY.md, 14_OBSERVABILITY_AND_INCIDENTS.md, 15_SECURITY_AND_COMPLIANCE.md, 16_RELEASE_AND_PERFORMANCE.md, 17_LAUNCH_AND_GROWTH.md, and the surface/content/reference pack 18_LANDING_AND_MARKETING_SITE.md, 19_BRAND_COPY_AND_VOICE.md, 20_EMAIL_TEMPLATES.md, 21_ERROR_AND_STATE_CATALOG.md, 22_GLOSSARY_AND_DATA_DICTIONARY.md, 23_FINAL_BUILD_CHECKLIST.md.
 Build TESKEL phase by phase.
 For each task:
 1. Implement the smallest working slice.
@@ -47,8 +53,9 @@ For each task:
 3. Run verification commands.
 4. Fix failures caused by your changes.
 5. Update BUILD_STATUS.md.
-6. Commit progress if git is available.
-7. Continue until the final acceptance test passes or a stop condition is reached.
+6. Tick the matching items in 23_FINAL_BUILD_CHECKLIST.md.
+7. Commit progress if git is available.
+8. Continue until the final acceptance test passes or a stop condition is reached.
 ```
 
 ---
@@ -77,6 +84,15 @@ For each task:
 - `15_SECURITY_AND_COMPLIANCE.md`
 - `16_RELEASE_AND_PERFORMANCE.md`
 - `17_LAUNCH_AND_GROWTH.md`
+
+### Surface, Content & Reference Pack
+
+- `18_LANDING_AND_MARKETING_SITE.md`
+- `19_BRAND_COPY_AND_VOICE.md`
+- `20_EMAIL_TEMPLATES.md`
+- `21_ERROR_AND_STATE_CATALOG.md`
+- `22_GLOSSARY_AND_DATA_DICTIONARY.md`
+- `23_FINAL_BUILD_CHECKLIST.md`
 
 ### Core Engineering Specs
 
