@@ -13,6 +13,12 @@
 | `15_SECURITY_AND_COMPLIANCE.md` | STRIDE, OWASP, GDPR, SOC 2 readiness | Security + engineer |
 | `16_RELEASE_AND_PERFORMANCE.md` | Release pipeline, feature flag, perf budget | Engineering + DevOps |
 | `17_LAUNCH_AND_GROWTH.md` | Launch stage, north star, pricing, GTM | Product + GTM |
+| `18_LANDING_AND_MARKETING_SITE.md` | Halaman publik lengkap (landing, pricing, docs, legal, dll) | Frontend + Marketing |
+| `19_BRAND_COPY_AND_VOICE.md` | Brand identity, voice/tone, microcopy library | Marketing + Designer |
+| `20_EMAIL_TEMPLATES.md` | 47 template email + trigger + preference | Backend + Marketing |
+| `21_ERROR_AND_STATE_CATALOG.md` | Katalog error API + UI state | Frontend + Backend |
+| `22_GLOSSARY_AND_DATA_DICTIONARY.md` | Glosarium, status enum, format ID/slug | Semua |
+| `23_FINAL_BUILD_CHECKLIST.md` | Master checklist Phase 0 → GA | Captain / Engineering Lead |
 | `02_DATABASE_SCHEMA.md` | Schema lengkap semua tabel (Drizzle ORM) | Backend |
 | `03_API_SPEC.md` | Semua endpoint + request/response + auth | Backend |
 | `04_FRONTEND_UIUX_SPEC.md` | Semua page + component + flow + UI spec | Frontend + UI/UX |
